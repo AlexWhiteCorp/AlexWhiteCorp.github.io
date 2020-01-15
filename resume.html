@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Резюме- Олексій Білик - Java Developer( + vue.js)</title>
+
+    <style>
+        a{
+            color: inherit;
+            outline: none;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        }
+
+        body{
+            padding: 0px 0px 50px 0px;
+            margin: 0px;
+            /*min-width: 595px;
+            max-width: 595px;
+            min-height: 887px;
+            max-height: 887px;*/
+
+            font-family: Verdana;
+        }
+
+        .row:after {
+            visibility: hidden;
+            display: block;
+            font-size: 0;
+            content: " ";
+            clear: both;
+            height: 0;
+        }
+        .row {
+            display: inline-block;
+        }
+        * html .row {
+            height: 1%;
+        }
+        .row {
+            display: block;
+        }
+
+        .header{
+            background: #373d48;
+            min-width: 100%;
+            max-width: 100%;
+            min-height: 165px;
+            max-height: 165px;
+        }
+
+        .header-top{
+            min-height: 75px;
+            max-height: 75px;
+
+            border-bottom: 1px solid #464c56;
+        }
+
+        .in-header-top{
+            margin: 0px 0px 0px 125px;
+
+            line-height: 100px;
+            font-size: 30px;
+            color: white;
+        }
+
+        .header-bottom{
+
+        }
+
+        .in-header-bottom{
+            margin: 8px 0px 0px 125px;
+
+            line-height: 25px;
+            font-size: 12px;
+            color: #dad9d9;
+        }
+
+        .in-header-bottom strong{
+            color: white;
+        }
+
+        .info-block{
+            margin-top: 10px;
+
+            color: #373d48;
+        }
+
+        .side-left{
+            float: left;
+            width: 15%;
+        }
+
+        .info-block-img{
+            float: right;
+        }
+
+        .side-right{
+            float: right;
+            width: 82%;
+        }
+
+        .info-block-title{
+            margin-top: 15px;
+
+            font-size: 25px;
+            font-weight: 600;
+        }
+
+        .info-block-content{
+
+        }
+
+        .info-block-content div{
+        }
+    </style>
+    <style>
+        @media screen and (max-width: 1024px){
+            .info-block-img{
+                width: 75%;
+            }
+
+            .side-right{
+                margin: 0px 15px 0px 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div id="header-wrap"  class="header-wrap">
+            <div class="header-top">
+                <div class="in-header-top">
+                    <span>Олексій <strong>Білик</strong></span>
+                    <div style="float: right; color: #dad9d9; margin-right: 75px">Java Developer</div>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div class="in-header-bottom">
+                    <span><strong>Адреса</strong > Київ, Сєченова 6</span><br>
+                    <span><strong>Телефон</strong> +380679384857</span><br>
+                    <span><strong>E-mail</strong> alexwhitecorp@gmail.com</span><br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="content" class="content">
+        <div class="info-block row">
+        <div class="side-left">
+            <img src="images/icons/tech-stack.png" alt="" class="info-block-img">
+        </div>
+        <div class="side-right">
+            <div class="info-block-title">Технологічний стек</div>
+            <div class="info-block-content">
+                <div>• Spring(Security, MVC, JPA, REST, WebFlux)</div>
+                <div>• Hibernate, SQL(Postgresql)</div>
+                <div>• Java NIO(netty)</div>
+                <div>• JUnit 4</div>
+                <div>• HTML, CSS</div>
+                <div>• JavaScript(vue.js, webpack, bootstrap, ajax, jQuery)</div>
+                <div>• Git, Maven, Jenkins, Tomcat</div>
+                <div>• Linux</div>
+                <div>• English: Intermediate</div>
+            </div>
+        </div>
+    </div>
+        <div class="info-block row">
+            <div class="side-left">
+                <img src="images/icons/portfolio.png" alt="" class="info-block-img">
+            </div>
+            <div class="side-right">
+                <div class="info-block-title">Досвід роботи</div>
+                <div class="info-block-content">
+                    <div>• <strong style="font-size: 18px">JuniorHills</strong> - прототип платформи для курсів з програмування (pet project)</div>
+                    <div>&nbsp;<strong>Стек: </strong> Spring + vue.js + postgresql</div>
+                    <div>&nbsp;<strong>Код</strong>: <a href="https://github.com/AlexWhiteCorp/JH-Resume/tree/v-0.1.1">https://github.com/AlexWhiteCorp/JH-Resume</a></div>
+                    <div>&nbsp;<strong>Основні модулі:</strong></div>
+                    <div>&nbsp; - Система авторизації і ролі користувачів</div>
+                    <div>&nbsp; - Адмін панель для курсів(CRUD сервіс)</div>
+                    <div>&nbsp; - Навігація по курсам/топікам/рівням/лекціям/задачам</div>
+                    <div>&nbsp; - Внутрішня IDE і онлайн перевірка задач</div>
+
+                    <div>• <strong style="font-size: 18px">Online Chess</strong> - онлайн гра для смартфонів(pet project)</div>
+                    <div>&nbsp<strong>Стек: </strong> netty(Java) + libGdx + hibernate + postgresql</div>
+                    <div>&nbsp;<strong>Код</strong>: <a href="https://github.com/AlexWhiteCorp/OC-Server-Resume/tree/dev-0.1">https://github.com/AlexWhiteCorp/OC-Server-Resume</a></div>
+                    <div>&nbsp;<strong>Основні модулі:</strong></div>
+                    <div>&nbsp; - гра в шахи з іншими гравцями, система онлайн перегляду партій і записів зіграних ігор</div>
+                    <div>&nbsp; - community функціонал(клуби, друзі)</div>
+                    <div>&nbsp; - профілі та статистика гравців, кубки та ліги</div>
+
+                    <div>• <strong style="font-size: 18px">Блог</strong> - REST веб додаток з мінімальним набором необхідного функціоналу для зручного ведення блогу</div>
+                    <div>&nbsp<strong>Стек: </strong> Spring + vue.js + postgresql</div>
+                </div>
+            </div>
+        </div>
+        <div class="info-block row">
+            <div class="side-left">
+                <img src="images/icons/education.png" alt="" class="info-block-img">
+            </div>
+            <div class="side-right">
+                <div class="info-block-title">Освіта</div>
+                <div class="info-block-content">
+                    <div>• Київський Національний Університет ім. Т. Г. Шевченка, факультет комп’ютерних наук та кібернетики(2 курс)</div>
+                </div>
+            </div>
+        </div>
+        <div class="info-block row">
+            <div class="side-left">
+                <img src="images/icons/additional.png" alt="" class="info-block-img">
+            </div>
+            <div class="side-right">
+                <div class="info-block-title">Додатково</div>
+                <div class="info-block-content">
+                    <div>• «Філософія Java» Брюс Еккель</div>
+                    <div>• «Java Persistence API и Hibernate» Бауер, Кінг, Грегорі</div>
+                    <div>• Java конференції: JPoint, Joker</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+    let windowWidth = window.innerWidth;
+    let headerWrap = document.getElementById("header-wrap");
+    let content = document.getElementById("content");
+    if(windowWidth > 1024){
+        setToCenter(headerWrap);
+        setToCenter(content);
+    }
+    else{
+
+    }
+
+    function setToCenter(ellement) {
+        ellement.style.minWidth = '1024px';
+        ellement.style.maxWidth = '1024px';
+        ellement.style.marginLeft = (windowWidth - 1024) / 2 + 'px';
+        ellement.style.marginRight = (windowWidth - 1024) / 2 + 'px';
+    }
+
+    //https://tools.pdf24.org/ru/webpage-to-pdf
+</script>
+</html>
